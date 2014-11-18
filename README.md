@@ -1,4 +1,4 @@
-# Vim on Windows 
+Vim on Windows 
 ========================
 This is mostly intended as a note to myself, describing how I set up my programming environment in windows 8 using the following:
 * **Cygwin** with the mintty terminal
