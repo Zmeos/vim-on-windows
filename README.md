@@ -47,6 +47,7 @@ With pathogen installed, any plugins can easily be installed by cloning them int
 Require vim with Lua, this is included in Cygwin
 type 'vim --version' and there should be '+lua/dyn' in the list. Check in vim by typing: ':echo has("Lua")' should return a 1.
 If 0 is returned, check that you selected the Lua interpreter when installing Cygwin
+Add 'let g:neocomplete#enable_at_startup = 1' to the .vimrc
 
 ###[UltiSnips](https://github.com/SirVer/ultisnips)
 Require vim with Python, this is also included in Cygwin, and can be checked similarly to checking for Lua.
