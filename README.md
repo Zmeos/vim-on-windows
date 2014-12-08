@@ -9,6 +9,7 @@ This is mostly intended as a note to myself, but might be useful to anyone who h
 Vim Plugins:
 * **Neocomplete**
 * **Ultisnips**
+* **Julia-vim**
 
 This is more a collection of links and notes if some part of an installation turned out to be trick in Cygwin, install instructions will be in the links.
 
