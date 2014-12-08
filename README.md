@@ -38,19 +38,19 @@ Even thought you only want Solarized in Vim, iff you use Vim in terminal mode, y
 * **Install instructions** http://www.adobe.com/products/type/install-instructions.html
 
 ## [Pathogen](https://github.com/tpope/vim-pathogen)
-Curl is mentioned in the installation, disregard that. Just git clone in the '~/.vim' folder
+Curl is mentioned in the installation, disregard that. Just git clone in the `~/.vim` folder
 
 ## Vim Plugins
-With pathogen installed, any plugins can easily be installed by cloning them into the '~/.vim/bundle' folder.
+With pathogen installed, any plugins can easily be installed by cloning them into the `~/.vim/bundle` folder.
 
 ###[neocomplete](https://github.com/Shougo/neocomplete.vim)
 Require vim with Lua, this is included in Cygwin
-type 'vim --version' and there should be '+lua/dyn' in the list. Check in vim by typing: ':echo has("Lua")' should return a 1.
+type `vim --version` and there should be `+lua/dyn` in the list. Check in vim by typing: `:echo has("Lua")` should return a 1.
 If 0 is returned, check that you selected the Lua interpreter when installing Cygwin
-Add 'let g:neocomplete#enable_at_startup = 1' to the .vimrc
+Add `let g:neocomplete#enable_at_startup = 1` to the .vimrc
 
 ###[UltiSnips](https://github.com/SirVer/ultisnips)
 Require vim with Python, this is also included in Cygwin, and can be checked similarly to checking for Lua.
-In the 'vim --version' list there should be a '+' in front of 'python/dyn'. Check if python works by typing ':py print "anything"' in vim.
+In the `vim --version` list there should be a '+' in front of `python/dyn`. Check if python works by typing `:py print "anything"` in vim.
 
 UltiSnips come without any default snips installed. Default snips can be found [here](https://github.com/honza/vim-snippets)
