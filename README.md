@@ -30,7 +30,7 @@ Copied Amir Salihefendics vimrc and made some minor additions.
 A nice color palette, need to be installed separately for vim and mintty:
 * **Vim**: https://github.com/altercation/vim-colors-solarized
 * **Mintty**: https://github.com/mavnn/mintty-colors-solarized 
-As for the Mintty installation add `Term=xterm-256color` to your .minttyrc file in addition to the other changes in the installation. 
+add `Term=xterm-256color` to your .minttyrc file in addition to the other changes in the installation. 
 
 Even thought you only want Solarized in Vim, iff you use Vim in terminal mode, you will need the palette colors in the terminal as well.
 
