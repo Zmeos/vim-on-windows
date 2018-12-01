@@ -44,12 +44,12 @@ Curl is mentioned in the installation, disregard that. Just git clone in the `~/
 ## Vim Plugins
 With pathogen installed, any plugins can easily be installed by cloning them into the `~/.vim/bundle` folder.
 
-###[neocomplete](https://github.com/Shougo/neocomplete.vim)
+### [neocomplete](https://github.com/Shougo/neocomplete.vim)
 Require vim with Lua, this is included in Cygwin
 type `vim --version` and there should be `+lua/dyn` in the list. Check in vim by typing: `:echo has("Lua")` should return a 1.If 0 is returned, check that you selected the Lua interpreter when installing Cygwin. Lastly add `let g:neocomplete#enable_at_startup = 1` to the .vimrc
 
-###[UltiSnips](https://github.com/SirVer/ultisnips)
+### [UltiSnips](https://github.com/SirVer/ultisnips)
 Require vim with Python, this is also included in Cygwin, and can be checked similarly to checking for Lua.
 In the `vim --version` list there should be a '+' in front of `python/dyn`. Check if python works by typing `:py print "anything"` in vim.
 
-UltiSnips come without any default snips installed. Default snips can be found [here](https://github.com/honza/vim-snippets)
+`UltiSnips` come without any default snips installed. Default snips can be found [here](https://github.com/honza/vim-snippets)
